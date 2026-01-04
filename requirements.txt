@@ -1,0 +1,7 @@
+typer[all]
+rich
+httpx
+Pillow
+pydantic
+PyQt6
+
